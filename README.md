@@ -25,3 +25,5 @@ pod install
 ```
 open HintsightFHE.xcworkspace
 ```
+5. In LoginViewController.swift and RegisterViewController.swift, replace the string http://<ip_address:8000> with internal ip address to the server. Port number is set to be 8000 corresponding to the configuration set in docker compose. \
+   (Note that [Docker](https://github.com/HintSight-Technology/N2HE_Docker_PPFV_Demo2) should be setup before the demo can be used)
